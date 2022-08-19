@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  consul01:
+    image: consul:1.10
+    container_name: consul01
+    hostname: consul01
+    # ports:
+    #   - "8500:8500"
+    #   - "8300:8300"
+    #   - "8400:8400"
+    # volumes:
+    #   - ./data/consul01:/consul
+    command: ['tail', '-f', '/dev/null']
+      # - server
+      # - -bootstrap
+      # - -data-dir=/consul
+      # - -ui
+      # - -client=
