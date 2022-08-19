@@ -1,0 +1,1 @@
+consul join <IP-DO-OUTRO-CONSUL-SERVER>

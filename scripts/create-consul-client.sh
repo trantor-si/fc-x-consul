@@ -1,0 +1,1 @@
+consul agent -node=consulclient01 -data-dir=/var/lib/consul -config-dir=/etc/consul.d -bind=<INSERTIP>
