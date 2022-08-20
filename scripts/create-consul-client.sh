@@ -1,1 +1,2 @@
 consul agent -node=consulclient01 -data-dir=/var/lib/consul -config-dir=/etc/consul.d -bind=<INSERTIP>
+consul agent -node=consulclient02 -data-dir=/var/lib/consul -config-dir=/etc/consul.d -retry-join=<IP-DE-UM-CONSUL-SERVER> -bind=<INSERTIP>
